@@ -123,7 +123,7 @@ if predict:
         col6.image(".\\heroes\\"+hero_df[hero_df['sid']==_]['image_names'].values[0])
     #empties the dictionary on reload
     st.session_state['currently_picked']=[]
-
+#s
 # st.write(st.session_state['currently_picked'])
 
 
